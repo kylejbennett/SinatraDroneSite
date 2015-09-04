@@ -22,7 +22,35 @@ nav{
 ######## ABOUT #######
 ######################*/
 
+.banner1{
+	margin-top: 50px;
+	height: 800px;
+	width: 100%;
+	background-image: url("/drone_main_image.jpg");
+	background-size: cover;
+}
 
+.banner2{
+	height: 800px;
+	width: 100%;
+	background-image: url("/Coastline.jpg");
+	background-size: cover;
+}
+
+.info{
+	width: 800px;
+	margin: 50px auto;
+}
+
+.info h1{
+	font-family: "Syncopate";
+	font-size: 30pt;
+}
+
+.info p, .info a{
+	font-family: "Quattrocento Sans";
+	font-size: 20pt;
+}
 
 /*####################
 ###### SERVICES ######
