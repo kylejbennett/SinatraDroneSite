@@ -12,6 +12,8 @@ header{
 	font-size: 15pt;
 	position: fixed;
 	top: 0;
+	left: 0;
+	z-index: 1;
 }
 
 header img{
@@ -39,6 +41,16 @@ nav a{
 	text-decoration: none;
 }
 
+.headerblock{
+	height: 120px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	position: static;
+	top: 0px;
+	left: 0px;
+}
+
 .clear{
 	clear: both;
 }
@@ -47,14 +59,26 @@ nav a{
 
 footer{
 	background-color: lightgray;
-	height: 200px;
+	height: 120px;
+	width: 100%;
+	position: static;
+	bottom: 0px;
+	left: 0px;
+	z-index: 2;
 }
 
 #foot{
 	padding-top: 25px;
-	width: 1000px;
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
+}
+
+p.copy{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	z-index: 3;
 }
 
 .social ul{
@@ -86,15 +110,27 @@ footer p{
 /*####################
 ######## HOME ########
 ######################*/
+.homebackgroundmedia{
+	margin: 0px;
+	height: 800px;
+	width: 100%;
+	background-image: url("/city.gif");
+	background-size: cover;
+	position:fixed;
+	top: 120px;
+	z-index: -1;
+}
 
-
+#homeplaceholder{
+	height: 800px;
+}
 
 /*####################
 ######## ABOUT #######
 ######################*/
 
 .banner1{
-	margin-top: 50px;
+	margin: 0px;
 	height: 800px;
 	width: 100%;
 	background-image: url("/drone_main_image.jpg");
