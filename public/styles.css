@@ -8,7 +8,7 @@ header{
 	background-color: lightgray;
 	height: 120px;
 	width: 100%;
-	font-family: "Syncopate";
+	font-family: 'Syncopate', sans-serif;
 	font-size: 15pt;
 	position: fixed;
 	top: 0;
@@ -72,13 +72,6 @@ footer{
 	width: 100%;
 	margin: 0 auto;
 	text-align: center;
-}
-
-p.copy{
-	position: absolute;
-	bottom: 0px;
-	right: 0px;
-	z-index: 3;
 }
 
 .social ul{
@@ -163,7 +156,59 @@ footer p{
 ###### SERVICES ######
 ######################*/
 
+div#serviceswrapper{
+	overflow: :hidden;
+}
 
+div#col1{
+	float: left;
+	margin-left: 5%;
+	width: 30%;
+}
+
+div#col2{
+	float: left;
+	width: 30%;
+}
+
+div#col3{
+	float: left;
+	width: 30%;
+	margin-right: 5%;
+}
+
+div.box{
+	width: 100%;
+	height: 25%;
+}
+
+.dronegallery{
+	width: 100%;
+}
+
+.descriptgallery{
+	text-align: center;
+	font-family: "Syncopate"
+}
+.outerlight{
+	background-color: rgba(0,0,0,.5);
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	z-index: 1000;
+}
+
+.innerlight{
+	text-align: center;
+	font-style: bold;
+}
+
+.lightimg{
+	width: 70%;
+	z-index: 1000;
+}
 
 /*####################
 ####### CONTACT ######
