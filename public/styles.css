@@ -1,9 +1,11 @@
 /*####################
 ####### LAYOUT #######
 ######################*/
-
+body {
+    margin: 0;
+    padding: 0;
+}
 /*----------HEADER-----------*/
-
 header{
 	background-color: lightgray;
 	height: 120px;
@@ -61,22 +63,18 @@ footer{
 	background-color: lightgray;
 	height: 120px;
 	width: 100%;
-	position: static;
+	/* */
 	bottom: 0px;
 	left: 0px;
 	z-index: 2;
 }
+
 
 #foot{
 	padding-top: 25px;
 	width: 100%;
 	margin: 0 auto;
 	text-align: center;
-}
-
-.social ul{
-	width: 800px;
-	background-color: red;
 }
 
 .social li{
@@ -86,7 +84,12 @@ footer{
 }
 
 .social a{
+	font-size: 50px;
+	color: black;
 	text-decoration: none;
+}
+p.copy{
+	font-family: 'Syncopate', 'sans-serif'
 }
 
 .social img{
@@ -142,7 +145,7 @@ footer p{
 	margin: 50px auto;
 }
 
-.info h1{
+.info h1, p, {
 	font-family: "Syncopate";
 	font-size: 30pt;
 }
@@ -179,7 +182,7 @@ div#col3{
 
 div.box{
 	width: 100%;
-	height: 25%;
+	height: 400px;
 }
 
 .dronegallery{
@@ -187,9 +190,15 @@ div.box{
 }
 
 .descriptgallery{
-	text-align: center;
+	/*text-align: center;*/
 	font-family: "Syncopate"
 }
+
+.box h1{
+	font-family: "Quattrocento Sans";
+	text-align: center;
+}
+
 .outerlight{
 	background-color: rgba(0,0,0,.5);
 	height: 100%;
@@ -205,7 +214,7 @@ div.box{
 	font-style: bold;
 }
 
-.lightimg{
+.lightimg{	
 	width: 70%;
 	z-index: 1000;
 }
