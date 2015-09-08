@@ -219,11 +219,13 @@ div.box{
 form{
 	font-family: "Syncopate";
 	margin-bottom: 50px;
+	padding: 20px;
 }
 
 form label{
 	width: 30%;
 	margin-right: 100px;
+	font-family: "Quattrocento Sans";
 }
 
 form input{
@@ -232,7 +234,7 @@ form input{
 }
 
 .message{
-	width: 800px;
+	width: 400px;
 	height: 250px;
 }
 
