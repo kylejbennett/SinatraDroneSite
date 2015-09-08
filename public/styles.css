@@ -215,3 +215,32 @@ div.box{
 ######################*/
 
 /*-----------FORM-------------*/
+
+form{
+	font-family: "Syncopate";
+	margin-bottom: 50px;
+}
+
+form label{
+	width: 30%;
+	margin-right: 100px;
+}
+
+form input{
+	display: block;
+	width: 200px;
+}
+
+.message{
+	width: 800px;
+	height: 250px;
+}
+
+.submit{
+	width: 200px;
+	font-size: 25pt;
+	background-color: gray;
+}
+
+
+
