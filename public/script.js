@@ -1,4 +1,4 @@
-console.log("hello 1")
+	console.log("hello 1")
 $(document).ready(function(){
 	console.log("hello 2")
 
