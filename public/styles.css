@@ -106,20 +106,7 @@ footer p{
 /*####################
 ######## HOME ########
 ######################*/
-.homebackgroundmedia{
-	margin: 0px;
-	height: 800px;
-	width: 100%;
-	background-image: url("/city.gif");
-	background-size: cover;
-	position:fixed;
-	top: 120px;
-	z-index: -1;
-}
 
-#homeplaceholder{
-	height: 800px;
-}
 
 /*####################
 ######## ABOUT #######
