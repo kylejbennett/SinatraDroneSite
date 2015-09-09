@@ -7,7 +7,7 @@ body {
 }
 /*----------HEADER-----------*/
 header{
-	background-color: gray;
+	background-color: rgba(0, 0, 0, .3);
 	height: 120px;
 	width: 100%;
 	font-family: 'Syncopate', sans-serif;
@@ -39,7 +39,7 @@ nav li{
 }
 
 nav a{
-	color: black;
+	color: white;
 	text-decoration: none;
 }
 
@@ -47,7 +47,7 @@ nav a:hover{
 	color: white;
 }
 
-.headerblock{
+/*.headerblock{
 	height: 120px;
 	width: 100%;
 	margin: 0px;
@@ -55,7 +55,7 @@ nav a:hover{
 	position: static;
 	top: 0px;
 	left: 0px;
-}
+}*/
 
 .clear{
 	clear: both;
@@ -64,7 +64,7 @@ nav a:hover{
 /*----------FOOTER-----------*/
 
 footer{
-	background-color: gray;
+	background-color: rgba(0, 0, 0, .3);
 	height: 120px;
 	width: 100%;
 	/* */
@@ -142,7 +142,6 @@ footer p{
 video{
 	width: 100%;
 	position: fixed;
-	top: 120px;
 	z-index: -1;
 	opacity: .7;
 }
