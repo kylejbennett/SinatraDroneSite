@@ -17,6 +17,10 @@ get "/services" do
 	erb :services
 end
 
+get "/landing" do
+	erb :landing
+end
+
 post "/contact" do
 	puts "The parameters of the message are " + params.inspect
 	m = Mandrill::API.new
@@ -29,5 +33,5 @@ post "/contact" do
 	:from_email=> params["emailfrom"]
 	} 
 	m.messages.send message
-	erb :contact
+	erb :landing
 end

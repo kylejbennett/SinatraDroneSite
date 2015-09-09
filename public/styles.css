@@ -107,6 +107,46 @@ footer p{
 ######## HOME ########
 ######################*/
 
+#homeplaceholder{
+	height: 800px;
+	text-align: center;
+}
+
+#homeplaceholder h1{
+	font-family: "Quattrocento Sans";
+	position: fixed;
+	top: 200px;
+	left: 38%;
+}
+
+#homeplaceholder h3{
+	font-family: "Quattrocento Sans";
+	position: fixed;
+	top: 300px;
+	left: 44%;
+}
+
+video{
+	width: 100%;
+	position: fixed;
+	top: 120px;
+	z-index: -1;
+}
+
+#button{
+	border: 2px solid black;
+	width: 100px;
+	height: 25px;
+	position: fixed;
+	top: 375px;
+	left: 47%;
+}
+
+#button a{
+	width: 100px;
+	height: 25px;
+}
+
 
 /*####################
 ######## ABOUT #######
@@ -240,5 +280,23 @@ form input{
 	background-color: gray;
 }
 
+/*####################
+##### LANDING ######
+####################*/
+
+.thanks{
+	height: 400px;
+}
+
+.thanks h1{
+	font-family: "Syncopate";
+	padding-top: 100px;
+	padding-left: 50px;
+}
+
+.thanks h2{
+	padding-top: 50px;
+	padding-left: 50px;	
+}
 
 

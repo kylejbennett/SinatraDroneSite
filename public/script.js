@@ -10,14 +10,6 @@ $(document).ready(function(){
 ######## HOME ########
 ######################*/
 
-	var iframe = $('#vimeo_player')[0],
-            player = $f(iframe),
-            status = $('.status');
-		console.log("hello 1")
-            player.addEvent('ready', function() {
-                player.api('setVolume', 0);
-                	console.log("hello 2")
-            });
 /*####################
 ######## ABOUT #######
 ######################*/
