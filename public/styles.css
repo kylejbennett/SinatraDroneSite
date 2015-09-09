@@ -253,5 +253,23 @@ form input{
 	background-color: gray;
 }
 
+/*####################
+##### LANDING ######
+####################*/
+
+.thanks{
+	height: 400px;
+}
+
+.thanks h1{
+	font-family: "Syncopate";
+	padding-top: 100px;
+	padding-left: 50px;
+}
+
+.thanks h2{
+	padding-top: 50px;
+	padding-left: 50px;
+}
 
 
