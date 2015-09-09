@@ -7,7 +7,7 @@ body {
 }
 /*----------HEADER-----------*/
 header{
-	background-color: lightgray;
+	background-color: gray;
 	height: 120px;
 	width: 100%;
 	font-family: 'Syncopate', sans-serif;
@@ -60,7 +60,7 @@ nav a{
 /*----------FOOTER-----------*/
 
 footer{
-	background-color: lightgray;
+	background-color: gray;
 	height: 120px;
 	width: 100%;
 	/* */
@@ -136,6 +136,7 @@ video{
 	position: fixed;
 	top: 120px;
 	z-index: -1;
+	opacity: .7;
 }
 
 #button:hover{
@@ -146,6 +147,7 @@ video{
 
 #button{
 	border: 2px solid black;
+	border-radius: 25px;
 	width: 120px;
 	height: 25px;
 	position: fixed;
