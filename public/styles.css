@@ -187,7 +187,7 @@ video{
 ######################*/
 
 div#serviceswrapper{
-	overflow: :hidden;
+
 }
 
 div#col1{
@@ -209,7 +209,8 @@ div#col3{
 
 div.box{
 	width: 100%;
-	height: 400px;
+	
+	padding: 10px;
 }
 
 .dronegallery{
@@ -217,8 +218,8 @@ div.box{
 }
 
 .descriptgallery{
-	/*text-align: center;*/
-	font-family: "Syncopate"
+	text-align: center;
+	font-family: "Quattrocento Sans";
 }
 
 .box h1{
@@ -246,6 +247,12 @@ div.box{
 	z-index: 1000;
 }
 
+.instagram{
+	text-align: center;
+	margin: 0 auto;
+	width: 500px;
+
+}
 /*####################
 ####### CONTACT ######
 ######################*/
@@ -255,7 +262,8 @@ div.box{
 form{
 	font-family: "Syncopate";
 	margin-bottom: 50px;
-	padding: 20px;
+	padding: 50px;
+	float: left;
 }
 
 form label{
@@ -278,6 +286,13 @@ form input{
 	width: 200px;
 	font-size: 25pt;
 	background-color: gray;
+}
+
+.form-insta{
+	float: right;
+	margin-right: 50px;
+	width: 600px;
+	margin-top: 10px;
 }
 
 /*####################
