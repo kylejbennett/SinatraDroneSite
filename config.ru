@@ -1,2 +1,2 @@
-require './app'
+require './drone'
 run Sinatra::Application
